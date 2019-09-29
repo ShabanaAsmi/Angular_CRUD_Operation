@@ -1,0 +1,11 @@
+{
+    "tablecontent":[   {"id": "1026", "ApplicationName": "Testing Group", "createDate": "21/9/19", "createdBy": "Ms.Fathi","modifiedDate":"25/9/19","comments":"Unit Test"},
+        {"id": "1024", "ApplicationName":" Dev Team", "createDate": "20/9/19", "createdBy": "Ms.Anitha","modifiedDate":"22/9/19","comments":"working in Functionality"},
+        {"id": "1023", "ApplicationName": "QA", "createDate": "20/9/19", "createdBy": "Mr.Varun","modifiedDate":"24/9/19","comments":"sprit1 stories completed"},
+        {"id": "1020", "ApplicationName": "Testing Group", "createDate": "19/9/19", "createdBy": "Ms.Swathi","modifiedDate":"21/9/19","comments":"Unit Test"},
+        {"id": "1027", "ApplicationName": "Design Group", "createDate": "15/9/19", "createdBy": "Mr.Vicky","modifiedDate":"20/9/19","comments":"Design Completed"}],
+    "tableHead":
+        ["Application ID", "Application Name", "Ceated Date", "Created By","Modified Date","Comments","Action"]
+    
+
+}

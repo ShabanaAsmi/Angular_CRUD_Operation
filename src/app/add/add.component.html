@@ -1,0 +1,80 @@
+<h3>Add Application</h3>
+<div class="row " style="padding: 10px">
+  <div class="col-2">
+    <label for="comment">Application ID </label>
+  </div>
+
+  <div class="col-6 ">
+  <div class="col-12 data-select-nova comment">
+    <input type="text" [(ngModel)]="appID" placeholder="Application ID"/>
+  </div>
+
+</div>
+</div>
+<div class="row " style="padding: 10px">
+  <div class="col-2">
+    <label for="comment">Application Name </label>
+  </div>
+
+  <div class="col-6 ">
+  <div class="col-12 data-select-nova comment">
+    <input type="text" [(ngModel)]="appName" placeholder="Application Name"/>
+  </div>
+
+</div>
+</div>
+<div class="row " style="padding: 10px">
+  <div class="col-2">
+    <label for="comment">Created Date </label>
+  </div>
+
+  <div class="col-6 ">
+  <div class="col-12 data-select-nova comment">
+    <input type="text" [(ngModel)]="createDate" placeholder="Create Date"/>
+  </div>
+
+</div>
+</div>
+<div class="row " style="padding: 10px">
+  <div class="col-2">
+    <label for="comment">Create By </label>
+  </div>
+
+  <div class="col-6 ">
+  <div class="col-12 data-select-nova comment">
+    <input type="text" [(ngModel)]="createBy" placeholder="Create By"/>
+  </div>
+
+</div>
+</div>
+<div class="row " style="padding: 10px">
+  <div class="col-2">
+    <label for="comment">Modified Date </label>
+  </div>
+
+  <div class="col-6 ">
+  <div class="col-12 data-select-nova comment">
+    <input type="text" [(ngModel)]="ModifiedDate" placeholder="Modified Date"/>
+  </div>
+
+</div>
+</div>
+<div style="display: flex;">
+  <div class="row "  style="padding: 10px">
+    <div class="col-2">
+      <label for="comment">Comments: </label>
+    </div>
+  </div>
+    <div class="col-6" style="padding-left: 113px;">
+    <div class="col-12 data-select-nova comment">
+      <textarea class="field-height" [(ngModel)]="commentsval" placeholder="Comments:"></textarea>
+    </div>
+  </div>
+</div>
+
+
+
+<button  (click)="saveAdddata()" type="button" style="padding: 4px 13px 8px 13px; margin:10px; background: green; border-radius: 4px;"
+ >Save</button>
+<button (click)="cancelData()" type="button" class="btn btn-outline-danger" style="background: red; color: white">Cancel</button>
+
